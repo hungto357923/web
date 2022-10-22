@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel = "icon" href ="images/icon.png" type = "image/x-icon">
+	<title>ITC</title>
+	<!-- Import Boostrap css, js, font awesome here -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">       
+    <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link href="./css/style.css" rel="stylesheet">
+</head>
+<body style="background-image: url('./images/nen.png');">
+<!-- Navigation -->
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top" id="my-menu">
+	<div class="container-fluid">
+		<a class="navbar-branch" href="#">
+			<img src="./images/logo.png" height="50">
+		</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" 
+			data-target="#navbarResponsive">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarResponsive">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item">
+					<a class="nav-link active" href="index.html">Trang chủ</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#carouselExampleSlidesOnly">Giới Thiệu</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#slides">Hoạt động</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#slides2">Khóa Học</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#contact">Liên hệ</a>
+				</li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Khác
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Cuộc Thi</a></li>
+                      <li><a class="dropdown-item" href="#">Hình Ảnh</a></li>
+                     
+                    </ul>
+                  </li>
+			</ul>
+		</div>
+
+	</div>
+</nav>
+<div class="mt-3" data-spy="scroll" data-target="#my-menu" data-offset="0">
+<div id="carouselExampleSlidesOnly" >
+	<center>
+	  <div>
+		<img src="images/nen1.png" width=95% height=95%>
+	  </div>
+	</center>
+<div class="main">
+<div class="container-fluid padding">
+	<div class="row welcome text-center">
+		<div class="col-12">
+			<h1 class="display-4">Ban Chủ Nhiệm ITC</h1>
+		</div>
+	</div>
+</div>
+<div class="container-fluid padding">
+	<div class="row padding">
+		<div class="col-md-4">
+			<div>
+				<center>
+					<img class="card-img-top circle" src="./images/vuthanhdat.jpg">
+				<div class="card-body">
+					<h4 style="color:white" class="card-title">Vũ Thành Đạt</h4>
+					<p style="color:white" class="card-text">(Phó chủ nghiệm khoa)</p>
+				</div>
+				</center>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div>
+				<center>
+					<img class="card-img-top circle" src="./images/cohien.jpg">
+				<div class="card-body">
+					<h4 style="color:white" class="card-title">
+						Lê Thị Thu Hiền	
+					</h4>
+					<p style="color:white" class="card-text">(Chủ nghiệm khoa)</p>
+				</div>
+				</center>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div>
+				<center>
+					<img class="card-img-top circle" src="./images/chihien.jpg">
+				<div class="card-body">
+					<h4 style="color:white" class="card-title">
+						Lê Thị Thúy Nga
+					</h4>
+					<p style="color:white" class="card-text">(Phó chủ nghiệm khoa)</p>
+				</center>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+<!-- Carousel -->
+<div id="slides" class="carousel slide main" data-ride="carousel">
+	<div class="col-12">
+        <h1 class="display-4">Các Cuộc Thi</h1>
+    </div>
+	<ul class="carousel-indicators">
+		<li data-target="#slides" data-slide-to="0" class="active"></li>
+		<li data-target="#slides" data-slide-to="1"></li>
+		<li data-target="#slides" data-slide-to="2"></li>		
+		<li data-target="#slides" data-slide-to="3"></li>
+	</ul>
+	<div class="carousel-inner">
+		<div class="carousel-item active">
+			<img src="./images/carousel0.jpg" width=50% height=50%>
+		</div>
+		<div class="carousel-item">
+			<img src="./images/carousel1.jpg"width=50% height=50%>
+		</div>
+		<div class="carousel-item">
+			<img src="./images/carousel2.jpg"width=50% height=70%>
+		</div>
+		<div class="carousel-item">
+			<img src="./images/carousel3.jpg"width=50% height=70%>
+		</div>
+	</div>
+</div>
+
+<!-- Carousel -->
+
+<div id="slides2" class="carousel slide2 main" data-ride="carousel">
+    <div class="col-12">
+        <h1 class="display-4">Các Khóa Học</h1>
+    </div>
+	<ul class="carousel-indicators">
+		<li data-target="#slides2" data-slide-to="4" class="active"></li>
+		<li data-target="#slides2" data-slide-to="5"></li>
+		<li data-target="#slides2" data-slide-to="6"></li>		
+		<li data-target="#slides2" data-slide-to="7"></li>
+	</ul>
+	<div class="carousel-inner">
+		<div class="carousel-item active">
+			<img src="./images/khoa4.jpg">
+		</div>
+		<div class="carousel-item">
+			<img src="./images/khoa5.jpg">
+		</div>
+		<div class="carousel-item">
+			<img src="./images/khoa6.jpg">
+		</div>
+		<div class="carousel-item">
+			<img src="./images/khoa7.png">
+		</div>
+	</div>
+</div>
+
+<div id="slides" class="carousel slide main" data-ride="carousel">
+	<div class="col-12">
+        <h1 class="display-4">Các Hoạt Động Tích Cực</h1>
+    </div>
+	<ul class="carousel-indicators">
+		<li data-target="#slides" data-slide-to="8" class="active"></li>
+		<li data-target="#slides" data-slide-to="9"></li>
+		<li data-target="#slides" data-slide-to="10"></li>		
+		<li data-target="#slides" data-slide-to="11"></li>
+	</ul>
+	<div class="carousel-inner">
+		<div class="carousel-item active">
+			<img src="./images/ct8.jpg" width=50% height=50%>
+		</div>
+		<div class="carousel-item">
+			<img src="./images/ct9.jpg"width=50% height=50%>
+		</div>
+		<div class="carousel-item">
+			<img src="./images/ct10.jpg"width=50% height=70%>
+		</div>
+		<div class="carousel-item">
+			<img src="./images/ct11.jpg"width=50% height=70%>
+		</div>
+	</div>
+</div>
+
+<!-- <div class="container-fluid padding">	
+	<div class="row text-center padding">
+		<div class="col-12">
+			<h2>Liên Hệ</h2>
+		</div>
+		<div class="col-12 social padding">
+			<a href="https://www.facebook.com/InformationTechnologyClub.uneti"><i class="fab fa-facebook"></i></a>
+			 <a href="#"><i class="fab fa-twitter"></i></a> -->
+			<!-- <a href="lienchidoancnttuneti@gmail.com"><i class="fab fa-google-plus-g"></i></a>
+			<a href="#"><i class="fab fa-instagram"></i></a>
+			<a href="#"><i class="fab fa-youtube"></i></a>
+		</div>
+	</div>
+</div> -->
+
+<footer>
+	<div id="contact">
+	<div class="container-fluid padding">	
+		<div class="row padding">
+			<div class="col-md-7">		
+				<h4 align="left" style="margin: 40px 0 30px 0;">Về chúng tôi</h4>
+					<p align="left">
+						“Câu lạc bộ Tin học - ITC là CLB chuyên môn có bề dày truyền thống lâu đời,
+						 được thành lập đầu tiên trong trường. Đến với ITC bạn sẽ cảm nhận được sự nhiệt huyết, 
+						 hãng say trong học tập, sự năng động, tính sáng tạo trong các hoạt động ngoại khóa. 
+						 Các thành viên được tạo điều kiện để có thể phát huy hết tiềm năng từ kiến thức học thuật, 
+						 đến kỹ năng mềm qua các cuộc thi tay nghề cấp trung ương và cấp bộ"
+						</p>
+			</div>
+			<div align="left" class="col-md-55" >
+				<h5 style="margin: 30px 0 30px 0;"><a class="navbar-branch">
+					<img  src="./images/logo.png" height="60">
+				</a>Liên hệ</h5>
+				
+				<p><a class="navbar-branch">
+					<img src="./images/dt.png" height="40">
+				</a>01234567898</p>
+				<p><a class="navbar-branch">
+					<img src="./images/mail.PNG" height="40">
+				</a>lienchidoancnttuneti@gmail.com</p>
+				<p><a class="navbar-branch">
+					<img src="./images/map.PNG" height="40">
+				</a>Linh Nam street, Hanoi, Vietnam</p>
+				<p><a class="navbar-branch">
+					<img src="./images/face.PNG" height="40">
+				</a>InformationTechnologyClub.uneti</p>
+				<p><a class="navbar-branch">
+					<img src="./images/tiktok.png" height="40">
+				</a>@itc.uneti</p>
+			</div>
+		</div>
+	</div>
+</div>
+<div>
+	<hr class="light">
+	<center>
+		<p class="navbar-branch">&copy copyright by DHTI15A1CL</p>
+	</center>
+</div>
+</footer>
+</div>
+</body>
+</html>	
+
+
+
+
+
+
+
+
+
+
+
